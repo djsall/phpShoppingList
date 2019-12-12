@@ -39,24 +39,24 @@ function clearMyShopping()
 </head>
 
 <body>
-	<div class="cont">
-		<form action="index.php">
-			<ul class="ui">
-				<li>
-					<textarea name='text'></textarea>
-				</li>
-				<li>
-					<input type="submit" value="Save" class="button">
-					<input type="submit" value="Clear List" name="del" class="button">
-				</li>
-			</ul>
-		</form>
-		<ul class="listCont">
-			<?php foreach ($result as $item) : ?>
-				<li class="list-item"><?= $item ?></li>
-			<?php endforeach; ?>
+<div class="cont">
+	<form action="index.php">
+		<ul class="ui">
+			<li>
+				<textarea name='text'></textarea>
+			</li>
+			<li>
+				<input type="submit" value="Save" class="button">
+				<input type="submit" value="Clear List" name="del" class="button">
+			</li>
 		</ul>
-	</div>
+	</form>
+	<ul class="listCont">
+		<?php foreach ($result as $item) : ?>
+			<li class="list-item"><?= $item ?></li>
+		<?php endforeach; ?>
+	</ul>
+</div>
 </body>
 
 </html>
