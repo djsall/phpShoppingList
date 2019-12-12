@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #333;
+	display: flex;
+	justify-content: center;
+	color: #fff;
+}
+
+.ui {
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0.5vh;
+}
+
+.button {
+	margin-top: 0.5vh;
+	width: 8vh;
+	height: 3vh;
+	font-size: 1.4vh;
+}
+
+.ui textarea {
+	min-width: 20vh;
+	min-height: 8vh;
+	max-width: 28vh;
+	max-height: 12vh;
+	font-size: 2vh;
+}
+
+.red {
+	color: red;
+}
+
+
+.listCont {
+	list-style-type: square;
+	display: flex;
+	flex-direction: column;
+	padding: 0.5vh;
+}
+
+.list-item {
+	margin-left: 2.5vh;
+	max-width: 20vh;
+}
+
+.cont {
+	border: 1.5px solid white;
+	width: 30vh;
+}
